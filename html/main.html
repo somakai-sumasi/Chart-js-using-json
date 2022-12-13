@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script src="https://raw.githubusercontent.com/emn178/chartjs-plugin-labels/master/build/chartjs-plugin-labels.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <script src="../js/CreateChart.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="chart-container" style="position: relative; height:400px; width:400px">
+        <canvas id="chart1" data-type="BarY" data-source="sample1"></canvas>
+    </div>
+
+    <div class="chart-container" style="position: relative; height:400px; width:400px">
+        <canvas id="chart2" data-type="BarX" data-source="sample2"></canvas>
+    </div>
+
+    <div class="chart-container" style="position: relative; height:400px; width:400px">
+        <canvas id="chart3" data-type="Doughnut" data-source="sample3"></canvas>
+    </div>
+
+    <div class="chart-container" style="position: relative; height:400px; width:400px">
+        <canvas id="chart4" data-type="Pie" data-source="sample4"></canvas>
+    </div>
+
+</body>
+
+</html>
